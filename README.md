@@ -36,8 +36,8 @@ Or if you are lazy download it
   5. Encryption Option
     - If you choose to do Encryption:
        1. Select the hash algorithm you want to use.
-    3. Enter the string you want to encrypt.
-    4. Your hashed string will be displayed automatically
+       2. Enter the string you want to encrypt.
+       3. Your hashed string will be displayed automatically
 ## Table of Contents for the game
 - [Installation](#installation)
 - [Usage](#usage)
