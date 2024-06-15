@@ -6,7 +6,7 @@ A basic offline brute force and encryption tool in batch + a simple game to try 
 - [Usage](#usage)
 - [Features](#features)
 - [customization](#customization)
-- [how it work](#how it works)
+- [how it work](#howitworks)
 - [Contributing](#contributing)
 
 ### Installation
@@ -21,17 +21,23 @@ Or if you are lazy download it
   2. You will be prompted to enter a username and password
   - username - admin
   - password - password (Note: You can change these credentials.)
-  3. Now you are on the menu
-    - you two option
+  3. Navigate the Menu
+    - After logging in, you'll see a menu with two options:
       - Brute force
       - Encryption
-  4. If you choose to brute force
-    1. you will be prompted with a question about which hash algorithm to use choose the one you want
-    2. You will be asked to select a wordlist the worldlist to use for the brute force
-      - The default one is wordlist.txt(it have 209,400 common password and usernames)
-      - You can change the built-in list or you can add your own list to the folder word_lists
-    3. Now you need to enter the hash you are trying to decrypt
-    4. Then you just need to wait(it going to be a long time)
+  4. Brute Force Option
+    - If you choose to brute force:
+       1. Select the hash algorithm you want to use.
+       2. Choose a wordlist:
+          - The default list is wordlist.txt (containing 209,400 common passwords and usernames).
+          - You can customize or add your own lists in the word_lists folder.
+    3. Enter the hash you want to decrypt.
+    4. Wait for the process to complete (this may take a while(not may it is, it will take a while(now even a while it will take a lot of time))).
+  5. Encryption Option
+    - If you choose to do Encryption:
+       1. Select the hash algorithm you want to use.
+    3. Enter the string you want to encrypt.
+    4. Your hashed string will be displayed automatically
 ## Table of Contents for the game
 - [Installation](#installation)
 - [Usage](#usage)
