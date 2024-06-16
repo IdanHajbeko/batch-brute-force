@@ -10,7 +10,7 @@ set YW=%ESC%[33m
 set BL=%ESC%[34m
 set WT=%ESC%[37m
 set RN=%ESC%[0m
-rem username - admin password - password
+
 set "hashed_username=c7ad44cbad762a5da0a452f9e854fdc1e0e7a52a38015f23f3eab1d80b931dd472634dfac71cd34ebc35d16ab7fb8a90c81f975113d6c7538dc69dd8de9077ec"
 set "hashed_password=b109f3bbbc244eb82441917ed06d618b9008dd09b3befd1b5e07394c706a8bb980b1d7785e5976ec049b46df5f1326af5a2ea6d103fd07c95385ffab0cacbc86"
 
@@ -44,13 +44,13 @@ echo ---------------
 echo   Main Menu
 echo ---------------
 echo 1. Brute Force
-echo 2. Encrypt string
+echo 2. Hash a string
 echo 3. Exit
 echo ---------------
 set /p choice="Enter your choice (1-3): "
 
 if "%choice%"=="1" goto BruteForce
-if "%choice%"=="2" goto Encrypt
+if "%choice%"=="2" goto Hashing
 if "%choice%"=="3" goto exit
 
 echo Invalid choice. Please try again.
@@ -59,7 +59,7 @@ goto menu
 
 :BruteForce
 cls
-type ".\ascii_art\encryption_art.txt"
+type ".\ascii_art\hashing_art.txt"
 echo --------------
 echo   BruteForce
 echo --------------
@@ -125,11 +125,11 @@ pause
 goto menu
 
 
-:Encrypt
+:Hashing
 cls
-type ".\ascii_art\encryption_art.txt"
+type ".\ascii_art\hashing_art.txt"
 echo ------------------
-echo   Encrypt string
+echo   hash a string
 echo ------------------
 echo 1. MD5
 echo 2. SHA1
@@ -155,7 +155,7 @@ if "%choice%"=="1" (
 ) else (
     echo Invalid choice. Please try again.
     pause
-    goto Encrypt
+    goto Hashing
 )
 
 set /p "inputString=Enter a string to calculate its hash: "
