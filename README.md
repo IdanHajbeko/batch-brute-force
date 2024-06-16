@@ -21,7 +21,7 @@ Or if you are lazy download it
   3. Navigate the Menu
     - After logging in, you'll see a menu with two options:
       - Brute force
-      - Hashing
+      - Hash a string
   4. Brute Force Option
     - If you choose to brute force:
        1. Select the hash algorithm you want to use.
