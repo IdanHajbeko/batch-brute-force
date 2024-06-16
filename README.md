@@ -6,7 +6,6 @@ A basic offline brute force and encryption tool in batch + a simple game to try 
 - [Usage](#usage)
 - [customization](#customization)
 - [how it works](#howitworks)
-- [Contributing](#contributing)
 
 ### Installation
 1. Clone the repo:
@@ -47,16 +46,15 @@ Or if you are lazy download it
 ### howitworks
    
    1. Step one was to hash a string in batch:
-      - There is no package or library that implements hash algorithms to batch like most programming languages
-      - But PowerShell has a command to hash strings I used this to execute the PowerShell command through batch
+      - There is no package or library that implements hash algorithms to batch like most programming languages.
+      - But PowerShell has a command to hash strings I used this to execute the PowerShell command through batch.
    2. After that it is time to do the brute force:
       - if you don't know how brute force works I got you:
-      - The user gives the script the hash and it's his type(<a href="https://hashes.com/en/tools/hash_identifier">You can get the hash type from here</a>)
-      - The script goes through each word in the word list and hash it
+      - The user gives the script the hash and it's his type(<a href="https://hashes.com/en/tools/hash_identifier">You can get the hash type from here</a>).
+      - The script goes through each word in the word list and hash it.
       - Then check if the hashed word from the word list equals the hash the user gave.
-      - If it does so that word from the word list is the original string that the user gave him
+      - If it does so that word from the word list is the original string that the user gave him.
 
 
-***note*** This script is very but very slow it should be never used as a tool for real uses 
-
+***note*** This script is very but very slow it should be never used as a tool for real uses.
 # I've also created a game where you can test the brute force 
