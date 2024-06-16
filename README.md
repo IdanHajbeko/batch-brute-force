@@ -1,6 +1,6 @@
-# batch brute force and encryption tool
+# batch brute force and hashing tool
 ## Description
-A basic offline brute force and encryption tool in batch + a simple game to try to brute force
+A basic offline brute force and hashing tool in batch + a simple game to try to brute force
 ## Table of Contents for the tool
 - [Installation](#installation)
 - [Usage](#usage)
@@ -21,7 +21,7 @@ Or if you are lazy download it
   3. Navigate the Menu
     - After logging in, you'll see a menu with two options:
       - Brute force
-      - Encryption
+      - Hashing
   4. Brute Force Option
     - If you choose to brute force:
        1. Select the hash algorithm you want to use.
@@ -30,13 +30,13 @@ Or if you are lazy download it
           - You can customize or add your own lists in the word_lists folder.
     3. Enter the hash you want to decrypt.
     4. Wait for the process to complete (this may take a while(not may it is, it will take a while(now even a while it will take a lot of time))).
-  5. Encryption Option
-    - If you choose to do Encryption:
+  5. Hashing Option
+    - If you choose to do hashing:
        1. Select the hash algorithm you want to use.
-       2. Enter the string you want to encrypt.
+       2. Enter the string you want to hash.
        3. Your hashed string will be displayed automatically
 ### Customization
-   - The brute force and encryption tool is highly customizable
+   - The brute force and hashing tool is highly customizable
    - You can customize:
       - The art that is shown in the tool. you can customize it by changing the .txt files that are in the ascii_art directory
       - The code of the tool is also customizable you can change the brute_force.bat
