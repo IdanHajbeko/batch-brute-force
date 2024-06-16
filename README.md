@@ -51,7 +51,7 @@ Or if you are lazy download it
       - But PowerShell has a command to hash strings I used this to execute the PowerShell command through batch
    2. After that it is time to do the brute force:
       - if you don't know how brute force works I got you:
-      - The user gives the script the hash and it's his type(<a href="https://hashes.com/en/tools/hash_identifier target="_blank"">You can get the hash type from here</a>)
+      - The user gives the script the hash and it's his type(<a href="https://hashes.com/en/tools/hash_identifier" target="_blank">You can get the hash type from here</a>)
 ## Table of Contents for the game
 - [Installation](#installation)
 - [Usage](#usage)
