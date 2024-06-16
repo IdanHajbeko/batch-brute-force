@@ -15,7 +15,6 @@ Or if you are lazy download it
 
 ### Usage
   1. Run the Batch File
-  - Simply execute the batch file.
   2. You will be prompted to enter a username and password
   - username - admin
   - password - password (Note: You can change these credentials.)
