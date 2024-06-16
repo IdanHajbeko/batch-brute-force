@@ -59,4 +59,4 @@ Or if you are lazy download it
 
 ***note*** This script is very but very slow it should be never used as a tool for real uses 
 
-# Ive also created a game where you can test the brute force 
+# I've also created a game where you can test the brute force 
